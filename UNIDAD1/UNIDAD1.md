@@ -8,7 +8,7 @@
 
 ---
 
-## 💻 Ejercicios Prácticos
+## 💻 Aprendizaje Autónomo
 
 *A continuación se presentan los ejercicios y prácticas desarrolladas tanto en las sesiones de clase como de manera autónoma.*
 
@@ -24,7 +24,7 @@ El **Modelo Entidad-Relación (MER)** es una herramienta fundamental para el dis
 
 <!-- Botón de acceso a los diagramas -->
 👉 <a href="ENLACE_A_TUS_DIAGRAMAS">
-  <img src="https://img.shields.io/badge/Ver_todos_los_diagramas_de_la_unidad-0052cc?style=for-the-badge" alt="Ver diagramas" align="middle" />
+  <img src="https://img.shields.io/badge/Ver_los_diagramas_de_Modelo_Entidad_Relacion-0052cc?style=for-the-badge" alt="Ver diagramas" align="middle" />
 </a>
 
 <br><br><br>
