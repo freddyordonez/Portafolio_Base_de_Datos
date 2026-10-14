@@ -20,7 +20,8 @@ Haz clic en los botones para acceder a los recursos, tareas, prácticas e inform
       <td align="center"><h3>Unidad 1</h3></td>
       <td>Base de Datos Relacionales.</td>
       <td align="center">
-        <a href="URL_CARPETA_UNIDAD_1">
+        <!-- Enlace conectado al archivo UNIDAD1.md dentro de la carpeta UNIDAD1 -->
+        <a href="UNIDAD1/UNIDAD1.md">
           <img src="https://img.shields.io/badge/VER_UNIDAD_1-0052cc?style=for-the-badge&logo=folder&logoColor=white" alt="Unidad 1" height="40">
         </a>
       </td>
