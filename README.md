@@ -36,4 +36,16 @@
 ### 📅 **Período Académico**
 ### *Septiembre 2026 – Febrero 2027*
 
+<br>
+
+#### 👇 **Presione el botón para ver la información de las unidades:** 👇
+<br>
+
+<!-- Botón de acceso a los contenidos del curso (Tamaño aumentado con width="350") -->
+<a href="ENLACE_A_TU_DOCUMENTO">
+  <img src="https://img.shields.io/badge/CONTENIDOS_DEL_CURSO-2ea44f?style=for-the-badge&logo=googledocs&logoColor=white" alt="Contenidos del Curso" width="350" />
+</a>
+
+<br><br>
+
 </div>
