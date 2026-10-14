@@ -22,8 +22,8 @@ El **Modelo Entidad-Relación (MER)** es una herramienta fundamental para el dis
 
 <br>
 
-<!-- Botón de acceso a los diagramas -->
-👉 <a href="ENLACE_A_TUS_DIAGRAMAS">
+<!-- Botón de acceso a los diagramas conectado al archivo DIAGRAMAS.md -->
+👉 <a href="DIAGRAMAS.md">
   <img src="https://img.shields.io/badge/Ver_los_diagramas_de_Modelo_Entidad_Relacion-0052cc?style=for-the-badge" alt="Ver diagramas" align="middle" />
 </a>
 
