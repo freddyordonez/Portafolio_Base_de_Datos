@@ -17,7 +17,9 @@
 
 <div align="center">
   <!-- Reemplaza "URL_DE_LA_IMAGEN" con el enlace o ruta de tu foto -->
-  <img src="URL_DE_LA_IMAGEN" alt="Diagrama MER Biblioteca" width="80%">
+
+  <img width="1600" height="567" alt="image" src="https://github.com/user-attachments/assets/5b1a311f-f908-40e0-9ba7-05c303747422" />
+
   <br><em>Diagrama MER: Sistema de Biblioteca</em>
 </div>
 
@@ -30,7 +32,10 @@
 * El precio del plato debe registrarse tal como estaba al momento del pedido, aunque luego cambie.
 
 <div align="center">
-  <img src="URL_DE_LA_IMAGEN" alt="Diagrama MER Restaurante" width="80%">
+
+  <img width="1600" height="1194" alt="image" src="https://github.com/user-attachments/assets/4f03ee0b-9ba1-49b4-a541-c7b1369ec125" />
+
+ 
   <br><em>Diagrama MER: Pedidos de Restaurante</em>
 </div>
 
@@ -43,7 +48,10 @@
 * Cada médico pertenece a una especialidad.
 
 <div align="center">
-  <img src="URL_DE_LA_IMAGEN" alt="Diagrama MER Clínica" width="80%">
+
+  <img width="1600" height="1194" alt="image" src="https://github.com/user-attachments/assets/72d2e91d-d0ff-4d23-868b-fdcc2155e9c1" />
+
+  
   <br><em>Diagrama MER: Clínica Médica</em>
 </div>
 
@@ -55,7 +63,10 @@
 * Los pasajeros realizan reservas para un vuelo específico, indicando asiento y tarifa pagada en el momento de la reserva.
 
 <div align="center">
-  <img src="URL_DE_LA_IMAGEN" alt="Diagrama MER Aerolínea" width="80%">
+
+  <img width="1600" height="1194" alt="image" src="https://github.com/user-attachments/assets/d47d4ddd-0ef1-4b48-9c24-de289ff2dadd" />
+
+  
   <br><em>Diagrama MER: Sistema de Aerolínea</em>
 </div>
 
@@ -72,7 +83,9 @@
 * 🎉 **Evento de promoción:** Los artistas participan en eventos para dar a conocer sus trabajos. Pueden participar varios artistas. Se almacena un identificador único, la fecha de celebración y el número de asistentes.
 
 <div align="center">
-  <img src="URL_DE_LA_IMAGEN" alt="Diagrama MER Discográfica" width="80%">
+
+<img width="1600" height="1194" alt="image" src="https://github.com/user-attachments/assets/bc27c05a-ad24-4b50-93ef-9e5ca4a7f825" />
+  
 </div>
 
 <br><hr width="30%"><br>
@@ -85,7 +98,9 @@
 * 🏢 **Proveedores:** Suministran los productos. Un producto puede ser suministrado por varios proveedores. Se guarda el código, nombres, apellidos, dirección, provincia y teléfono.
 
 <div align="center">
-  <img src="URL_DE_LA_IMAGEN" alt="Diagrama MER Tienda Informática" width="80%">
+
+<img width="1600" height="1044" alt="image" src="https://github.com/user-attachments/assets/48d3a006-3051-4cf8-92d2-6320655d8ec4" />
+
 </div>
 
 <br><hr width="30%"><br>
@@ -97,7 +112,9 @@
 * 🎧 **Canciones:** Un disco tiene un conjunto de canciones (identificador y título). Una canción puede estar en varios discos. Interesa conocer la posición de una canción en un determinado disco.
 
 <div align="center">
-  <img src="URL_DE_LA_IMAGEN" alt="Diagrama MER Discos Musicales" width="80%">
+  
+ <img width="1600" height="754" alt="image" src="https://github.com/user-attachments/assets/9954b1ee-3395-4dcd-b424-5f5899d44a40" />
+
 </div>
 
 <br><hr width="30%"><br>
@@ -110,7 +127,9 @@
 * 🚚 **Camiones:** Interesa la matrícula, modelo, tipo y potencia. Un camionero puede conducir diferentes camiones en fechas diferentes, y un camión ser conducido por varios camioneros.
 
 <div align="center">
-  <img src="URL_DE_LA_IMAGEN" alt="Diagrama MER Camiones" width="80%">
+
+<img width="1024" height="668" alt="image" src="https://github.com/user-attachments/assets/e0306dfd-dff4-4fb5-8fcb-bd8e58e34007" />
+
 </div>
 
 <br><hr width="30%"><br>
@@ -124,7 +143,9 @@
 5. 🚨 **Familiar de Contacto:** Para casos de emergencia. Interesa cédula, nombre y teléfono. Si el propietario se da de alta en la clínica, el familiar ya no interesa. Es contacto de un solo propietario.
 
 <div align="center">
-  <img src="URL_DE_LA_IMAGEN" alt="Diagrama MER Veterinaria" width="80%">
+  
+<img width="1427" height="782" alt="image" src="https://github.com/user-attachments/assets/830f350a-ce99-4c67-8ae2-27f4f0a8fd12" />
+
 </div>
 
 <br><br>
