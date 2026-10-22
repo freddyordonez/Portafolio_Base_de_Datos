@@ -113,7 +113,7 @@
 
 <div align="center">
   
- <img width="1600" height="754" alt="image" src="https://github.com/user-attachments/assets/9954b1ee-3395-4dcd-b424-5f5899d44a40" />
+<img width="1024" height="482" alt="image" src="https://github.com/user-attachments/assets/8eb288d0-a7d3-42af-b7c8-2d7c2442daea" />
 
 </div>
 
