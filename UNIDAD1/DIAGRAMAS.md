@@ -18,7 +18,9 @@
 <div align="center">
   <!-- Reemplaza "URL_DE_LA_IMAGEN" con el enlace o ruta de tu foto -->
 
-  <img width="1600" height="567" alt="image" src="https://github.com/user-attachments/assets/5b1a311f-f908-40e0-9ba7-05c303747422" />
+
+<img width="1524" height="1131" alt="image" src="https://github.com/user-attachments/assets/0b222f4e-5b88-43f0-bb22-d37c36af17a6" />
+
 
   <br><em>Diagrama MER: Sistema de Biblioteca</em>
 </div>
@@ -33,7 +35,7 @@
 
 <div align="center">
 
-  <img width="1600" height="1194" alt="image" src="https://github.com/user-attachments/assets/4f03ee0b-9ba1-49b4-a541-c7b1369ec125" />
+  <img width="1703" height="1089" alt="image" src="https://github.com/user-attachments/assets/8bc8e4ba-4fa8-48a4-b3dc-4b4a767b4a66" />
 
  
   <br><em>Diagrama MER: Pedidos de Restaurante</em>
@@ -49,7 +51,8 @@
 
 <div align="center">
 
-  <img width="1600" height="1194" alt="image" src="https://github.com/user-attachments/assets/72d2e91d-d0ff-4d23-868b-fdcc2155e9c1" />
+  <img width="1448" height="801" alt="image" src="https://github.com/user-attachments/assets/67230c07-5653-41cb-a74a-948575f96383" />
+
 
   
   <br><em>Diagrama MER: Clínica Médica</em>
@@ -64,7 +67,7 @@
 
 <div align="center">
 
-  <img width="1600" height="1194" alt="image" src="https://github.com/user-attachments/assets/d47d4ddd-0ef1-4b48-9c24-de289ff2dadd" />
+<img width="1507" height="1080" alt="image" src="https://github.com/user-attachments/assets/2430ba14-56f2-4d62-9f4e-3d73a0e251b7" />
 
   
   <br><em>Diagrama MER: Sistema de Aerolínea</em>
@@ -84,8 +87,8 @@
 
 <div align="center">
 
-<img width="1600" height="1194" alt="image" src="https://github.com/user-attachments/assets/bc27c05a-ad24-4b50-93ef-9e5ca4a7f825" />
-  
+<img width="1742" height="427" alt="image" src="https://github.com/user-attachments/assets/25a5158a-f961-4e0b-938b-ecf3fca84798" />
+
 </div>
 
 <br><hr width="30%"><br>
@@ -99,7 +102,8 @@
 
 <div align="center">
 
-<img width="1600" height="1044" alt="image" src="https://github.com/user-attachments/assets/48d3a006-3051-4cf8-92d2-6320655d8ec4" />
+<img width="1656" height="975" alt="image" src="https://github.com/user-attachments/assets/5920512c-994e-4e4e-bcef-de5de28b8d05" />
+
 
 </div>
 
@@ -113,7 +117,8 @@
 
 <div align="center">
   
-<img width="1024" height="482" alt="image" src="https://github.com/user-attachments/assets/8eb288d0-a7d3-42af-b7c8-2d7c2442daea" />
+<img width="1681" height="799" alt="image" src="https://github.com/user-attachments/assets/ffc932cd-3e5f-453f-9757-85b90b77fe11" />
+
 
 </div>
 
@@ -128,7 +133,8 @@
 
 <div align="center">
 
-<img width="1024" height="668" alt="image" src="https://github.com/user-attachments/assets/e0306dfd-dff4-4fb5-8fcb-bd8e58e34007" />
+<img width="1554" height="961" alt="image" src="https://github.com/user-attachments/assets/78ccc584-9860-476e-a896-5848bf794953" />
+
 
 </div>
 
@@ -144,7 +150,9 @@
 
 <div align="center">
   
-<img width="1427" height="782" alt="image" src="https://github.com/user-attachments/assets/830f350a-ce99-4c67-8ae2-27f4f0a8fd12" />
+
+<img width="1694" height="1039" alt="image" src="https://github.com/user-attachments/assets/8c74287b-7b1b-4bf5-ad77-9633e9f3220e" />
+
 
 </div>
 
