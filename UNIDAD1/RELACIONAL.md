@@ -123,3 +123,10 @@ Persona (cédula, nombre, código, fecha_alta, especialidad)
 Auxiliar (cédula, nombre, código, base_cotizacion)
 ```
 <img width="796" height="1179" alt="image" src="https://github.com/user-attachments/assets/821a821e-afea-4819-9ae4-e80fca7f02ba" />
+
+<!-- Botón para regresar a la unidad principal -->
+<div align="center">
+  <a href="UNIDAD1.md">
+    <img src="https://img.shields.io/badge/⬅_Volver_a_la_Unidad_1-555555?style=for-the-badge" alt="Volver a Unidad 1" />
+  </a>
+</div>
