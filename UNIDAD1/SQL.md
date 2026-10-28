@@ -451,7 +451,7 @@ CREATE TABLE Suministra (
 
 ### ⚙️ Código SQL
 ```sql
--- Tabla Cliente Genero_Musical
+-- Tabla Genero_Musical
 CREATE TABLE Genero_Musical (
     id_genero VARCHAR(20) PRIMARY KEY,
     nombre_genero VARCHAR(50) NOT NULL
@@ -526,6 +526,7 @@ CREATE TABLE Tiene (
 
 ### ⚙️ Código SQL
 ```sql
+-- Tabla Provincia
 CREATE TABLE Provincia (
     codigo VARCHAR(20) PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL
@@ -615,70 +616,64 @@ CREATE TABLE Camion (
 
 ### ⚙️ Código SQL
 ```sql
--- Tabla Propietario
-CREATE TABLE vet_propietario (
+ç-- Tabla Propietario
+CREATE TABLE Propietario (
     cédula VARCHAR(20) PRIMARY KEY,
     nombres VARCHAR(100) NOT NULL,
     dirección VARCHAR(255)
 );
-
--- Tabla Telefonos
-CREATE TABLE vet_telefonos (
+-- Tabla Telefonos (con claves foráneas hacia Propietario)
+CREATE TABLE Telefonos (
     telefono VARCHAR(20) PRIMARY KEY,
     cédula VARCHAR(20),
-    CONSTRAINT fk_vet_telefonos_propietario FOREIGN KEY (cédula) REFERENCES vet_propietario(cédula)
+    CONSTRAINT fk_telefonos_propietario FOREIGN KEY (cédula) REFERENCES Propietario(cédula)
 );
 
--- Tabla Familiar
-CREATE TABLE vet_familiar (
+-- Tabla Familiar (con claves foráneas hacia Propietario)
+CREATE TABLE Familiar (
     cédula VARCHAR(20) PRIMARY KEY,
     nombres VARCHAR(100) NOT NULL,
-    CONSTRAINT fk_vet_familiar_propietario FOREIGN KEY (cédula) REFERENCES vet_propietario(cédula)
+    CONSTRAINT fk_familiar_propietario FOREIGN KEY (cédula) REFERENCES Propietario(cédula)
 );
-
--- Tabla Telefonos Familiar
-CREATE TABLE vet_telf_familiar (
+-- Tabla Telf_familiar (con claves foráneas hacia Familiar)
+CREATE TABLE Telf_familiar (
     telefono VARCHAR(20) PRIMARY KEY,
     cédula VARCHAR(20),
-    CONSTRAINT fk_vet_telf_familiar FOREIGN KEY (cédula) REFERENCES vet_familiar(cédula)
+    CONSTRAINT fk_telf_familiar FOREIGN KEY (cédula) REFERENCES Familiar(cédula)
 );
-
--- Tabla Mascota
-CREATE TABLE vet_mascota (
+-- Tabla Mascota (con claves foráneas hacia Propietario)
+CREATE TABLE Mascota (
     id VARCHAR(20) PRIMARY KEY,
     fecha_nacimiento DATE,
     nombre VARCHAR(100) NOT NULL,
     tipo VARCHAR(50),
     cédula VARCHAR(20),
-    CONSTRAINT fk_vet_mascota_propietario FOREIGN KEY (cédula) REFERENCES vet_propietario(cédula)
+    CONSTRAINT fk_mascota_propietario FOREIGN KEY (cédula) REFERENCES Propietario(cédula)
 );
-
 -- Tabla Persona
-CREATE TABLE vet_persona (
+CREATE TABLE Persona (
     cédula VARCHAR(20) PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
     código VARCHAR(20),
     fecha_alta DATE,
     especialidad VARCHAR(100)
 );
-
 -- Tabla Auxiliar
-CREATE TABLE vet_auxiliar (
+CREATE TABLE Auxiliar (
     cédula VARCHAR(20) PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
     código VARCHAR(20),
     base_cotizacion DECIMAL(10,2)
 );
-
 -- Tabla Consulta
-CREATE TABLE vet_consulta (
+CREATE TABLE Consulta (
     id VARCHAR(20) PRIMARY KEY,
     fecha_atencion DATE,
     diagnostico VARCHAR(255),
     id_mascota VARCHAR(20),
     cédula VARCHAR(20),
-    CONSTRAINT fk_vet_consulta_mascota FOREIGN KEY (id_mascota) REFERENCES vet_mascota(id),
-    CONSTRAINT fk_vet_consulta_persona FOREIGN KEY (cédula) REFERENCES vet_persona(cédula)
+    CONSTRAINT fk_consulta_mascota FOREIGN KEY (id_mascota) REFERENCES Mascota(id),
+    CONSTRAINT fk_consulta_persona FOREIGN KEY (cédula) REFERENCES Persona(cédula)
 );
 
 ```
