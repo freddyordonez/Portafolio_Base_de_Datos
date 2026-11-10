@@ -1,3 +1,4 @@
+
 **FEIRNNR - Carrera de Computación**
 
 ---
@@ -14,6 +15,7 @@
 | **Resultado de aprendizaje de la unidad** | Modela bases de datos de problemas reales, bajo los principios de solidaridad, transparencia, responsabilidad y honestidad. |
 | **Nombre del Docente** | Edwin René Guamán Quinche |
 | **Fecha** | 30/10/2026 |
+| **Enlace de Git** | [https://github.com/freddyordonez/Portafolio_Base_de_Datos](https://github.com/freddyordonez/Portafolio_Base_de_Datos) |
 | **Nombres y apellidos del estudiantes** | Freddy Alexander Ordoñez Gonzalez |
 
 ---
@@ -61,12 +63,13 @@ Se necesita gestionar de manera integral la información de propietarios, hacien
 ## 4. MODELOS CONCEPTUALES DE BASES DE DATOS
 
 ### 4.1. Modelo Entidad-Relación (E-R)
-<img width="3377" height="2059" alt="Feria_Ganadera_Saraguro" src="https://github.com/user-attachments/assets/ae1b3b4b-b3e2-4bdb-b0a2-9f3a1386f93a" />
+
+<img width="3377" height="2059" alt="Feria_Ganadera_Saraguro" src="https://github.com/user-attachments/assets/c4c14cee-89aa-4b8e-b3f3-6f0cc6cd3403" />
 
 
 ### 4.2. Modelo Relacional
 
-<img width="1138" height="891" alt="FeriaRelacional" src="https://github.com/user-attachments/assets/36ddcaf6-972e-4a2c-994f-0a46069e02bc" />
+<img width="1138" height="891" alt="FeriaRelacional" src="https://github.com/user-attachments/assets/cf8bbfd8-d555-4f5f-aa39-3dfe333cc56f" />
 
 
 Esquema relacional (las claves primarias están subrayadas en el diagrama original; aquí se indican con `*`):
@@ -307,7 +310,7 @@ CREATE TABLE JUZGAMIENTO_PREMIACION (
 
 ### 5.2. Inserción de Datos (DML)
 
-**Datos para la tabla Propietario:**
+**-- Datos para la tabla Propietario:**
 
 ```sql
 -- Inserción de datos de para la tabla PROPIETARIO
@@ -320,7 +323,7 @@ VALUES
 ('PROP-005', '1103216547001', 'Ana Lucía Carrión', 'Hacienda Santa Marianita', 'Loja', 'Saraguro', 'El Aromo');
 ```
 
-**Datos para la tabla Guía de Movilización:**
+**-- Datos para la tabla Guía Movilización:**
 
 ```sql
 -- Inserción de datos de para la tabla GUIA_MOVILIZACION
@@ -333,7 +336,7 @@ VALUES
 ('GUIA-005', 'AGRO-2026-00290', '2026-11-08', 15, 14, 'Hacienda Santa Marianita', 'PROP-005');
 ```
 
-**Datos para la tabla Control Sanitario:**
+**-- Datos para la tabla Control Sanitario:**
 
 ```sql
 -- Inserción de datos de para la tabla CONTROL_SANITARIO
@@ -346,7 +349,7 @@ VALUES
 ('CTRL-005', '2026-11-08 09:30:00', 'ART-15200', 'Verificación de aretes en acceso principal; documentación en regla.', 'Aprobado', 'GS-2026-005', 'VET-002', 'GUIA-005');
 ```
 
-**Datos para la tabla Veterinario:**
+**-- Datos para la tabla Veterinario:**
 
 ```sql
 -- Inserción de datos de para la tabla VETERINARIO
@@ -359,7 +362,7 @@ VALUES
 ('VET-005', '1106543210', 'Paúl Fernando', 'Guamán Carrión');
 ```
 
-**Datos para la tabla Animal:**
+**-- Datos para la tabla Animal:**
 
 ```sql
 -- Inserción de datos de para la tabla ANIMAL
@@ -372,7 +375,7 @@ VALUES
 ('ANI-005', 'ART-15200', 'Porcino', 'Duroc', 'Macho', '2025-04-12', 155.50, 'PROP-005');
 ```
 
-**Datos para la tabla Genealogia:**
+**-- Datos para la tabla Genealogía:**
 
 ```sql
 -- Inserción de datos de para la tabla GENEALOGIA
@@ -385,7 +388,7 @@ VALUES
 ('GEN-005', 'REG-POR-2025-104', 'Verraco Duroc Pedigrí', 'Cerdas Duroc Comercial', 'ANI-005');
 ```
 
-**Datos para la tabla Oferta:**
+**-- Datos para la tabla Oferta:**
 
 ```sql
 -- Inserción de datos para la tabla OFERTA
@@ -398,7 +401,7 @@ VALUES
 ('OFT-005', 700.00, '2026-11-08 12:45:00', 'Pendiente', 'TXN-004', 'PROP-005');
 ```
 
-**Datos para la tabla Transacción de Venta:**
+**-- Datos para la tabla Transacción de la Venta:**
 
 ```sql
 -- Inserción de datos para la tabla TRANSACCION_VENTA
@@ -411,7 +414,7 @@ VALUES
 ('TXN-005', 520.00, 540.00, '2026-11-08 14:30:00', 'Completada', 'ANI-005', 'PROP-005', 'PROP-003', 'JORN-003');
 ```
 
-**Datos para la tabla Cronograma:**
+**-- Datos para la tabla Cronograma:**
 
 ```sql
 -- Inserción de datos para la tabla CRONOGRAMA
@@ -424,7 +427,7 @@ VALUES
 ('JORN-005', '2026-11-09', '15:00:00', '17:00:00', 'Premiación y Clausura de la Feria Ganadera');
 ```
 
-**Datos para la tabla Inscripción:**
+**-- Datos para la tabla Inscripción:**
 
 ```sql
 -- Inserción de datos para la tabla INSCRIPCION
@@ -437,7 +440,7 @@ VALUES
 ('INS-005', 1, 'ANI-005', 'EXP-MARZO-2026', 'CAT-001');
 ```
 
-**Datos para la tabla Categoría del Concurso:**
+**-- Datos para la tabla Categoría Concurso:**
 
 ```sql
 -- Inserción de datos para la tabla CATEGORIA_CONCURSO
@@ -450,7 +453,7 @@ VALUES
 ('CAT-005', 'Mejor Lote de Ganado Brahman');
 ```
 
-**Datos para la tabla Exposición Anual:**
+**-- Datos para la tabla Exposición Anual:**
 
 ```sql
 -- Inserción de datos para la tabla EXPOSICION_ANUAL
@@ -463,7 +466,7 @@ VALUES
 ('EXP-MARZO-2022', 'Feria Exposición Anual Ganadera Saraguro 2022', '2022-03-08', '2022-03-10');
 ```
 
-**Datos para la tabla Juzgamiento y Premiación:**
+**-- Datos para la tabla Juzgamiento y Premiacion:**
 
 ```sql
 -- Inserción de datos corregida para la tabla JUZGAMIENTO_PREMIACION
@@ -480,104 +483,129 @@ VALUES
 
 ## CONSULTA DE ÁLGEBRA RELACIONAL Y TRADUCIR A SQL
 
-### Consulta 1 — (operador: Selección σ.. etc)
+### Consulta 1 — Calificación de Concurso y Premiación Oficial de Ejemplares'
 
-**Descripción del objetivo de la consulta:** Obtener toda la información de los animales registrados cuya especie sea estrictamente "Bovino" dentro de la feria ganadera.
+**Descripción del objetivo de la consulta:** Se requiere generar un reporte oficial de la feria que relacione los datos de los animales participantes con las calificaciones emitidas por los jueces y los premios obtenidos. Para ello, se deben unificar las tablas animal, inscripcion y juzgamiento_premiacion, filtrando aquellas calificaciones con puntaje sobresaliente y renombrando la puntuación obtenida como puntaje_final para la presentación del informe.
 
 **Álgebra Relacional:**
 
 ```
-σ especie == "Bovino"(animal)
+S1 = animal ⋈ inscripcion ⋈ juzgamiento_premiacion
+S2 = σ puntuacion_obtenida >= 90.0 and puesto_asignado == 1 (S1)
+S3 = π numero_arete, puntuacion_obtenida, tipo_premio (S2)
+S4 = ρ puntuacion_obtenida ➡ puntaje_final (S3)
 ```
 
 **SQL:**
 
 ```sql
-SELECT *
-FROM   ANIMAL
-WHERE  especie = 'Bovino';
+SELECT   a.numero_arete,
+         jp.puntuacion_obtenida AS puntaje_final,
+         jp.tipo_premio
+FROM     animal a
+JOIN     inscripcion i ON a.id_animal = i.id_animal
+JOIN     juzgamiento_premiacion jp ON i.id_inscripcion = jp.id_inscripcion
+WHERE    jp.puntuacion_obtenida >= 90.0
+  AND    jp.puesto_asignado = 1;
 ```
 
-**Nueva tabla Relación donde se selecciona todas las especies de los bovinos en la tabla animal:**
+**Nueva tabla Relación cumpliendo la descripción:**
 
-| id_animal | numero_arete | especie | raza | sexo | fecha_nacimiento | peso_actual | id_propietario |
-|---|---|---|---|---|---|---|---|
-| ANI-004 | ART-14112 | Bovino | Brahman | Macho | 2024-01-05 | 710.0 | PROP-004 |
-| ANI-001 | ART-11001 | Bovino | Holstein | Macho | 2024-03-15 | 650.5 | PROP-001 |
-
-**Resultado esperado:** Se obtendrán todos los registros y columnas de los animales de la base de datos que correspondan a la especie bovino.
-
----
-
-### Consulta 2 — Proyección (operador: Proyección π), etc
-
-**Descripción del objetivo de la consulta:** Obtener únicamente el nombre del propietario (razón social), el nombre de su hacienda y el cantón de procedencia de todos los registros de la tabla, omitiendo datos de identificación como cédula/RUC y ubicación detallada.
-
-**Álgebra Relacional:**
-
-```
-π nombre_razonsocial, nombre_hacienda, canton(propietario)
-```
-
-**SQL:**
-
-```sql
-SELECT nombre_razonsocial, nombre_hacienda, canton
-FROM   PROPIETARIO;
-```
-
-**Nueva tabla Relación donde se proyectan todas las columnas de los nombres de la razón social, nombre de la hacienda y cantón:**
-
-| nombre_razonsocial | nombre_hacienda | canton |
+| numero_arete | puntaje_final | tipo_premio |
 |---|---|---|
-| Marco Vinicio Cabrera | Hacienda El Descanso | Cuenca |
-| Ana LucÃ­a CarriÃ³n | Hacienda Santa Marianita | Saraguro |
-| BolÃ­var Humberto Aguilar | Hacienda El ParaÃ­so | Pasaje |
-| Juan Carlos Puchaicela | Hacienda San JosÃ© | Saraguro |
-| Carmen Rosa Loja | Hacienda San Lucas | GirÃ³n |
+| ART-14112 | 99.1 | Cinta Azul + Trofeo |
+| ART-11001 | 98.5 | Cinta Azul + Trofeo |
+| ART-13089 | 97.0 | Cinta Azul + Trofeo |
 
-**Resultado esperado:** Se mostrarán únicamente tres columnas específicas (nombre_razonsocial, nombre_hacienda y canton) de todos los propietarios registrados en el sistema.
+**Resultado esperado:** Una relación tabular limpia que muestra el número de arete del animal, su calificación final renombrada (puntaje_final) y el tipo de premio obtenido (por ejemplo, cintas o trofeos), filtrando exclusivamente a los campeones que obtuvieron el primer puesto con una puntuación sobresaliente.
 
 ---
 
-### Consulta 3 — Selección con Proyección (σ + π combinados)
+### Consulta 2 — Validación Sanitaria de Ingreso mediante Guías de Movilización
 
-**Descripción:** Filtrar los animales de la feria que sean de la especie "Bovino" y cuyo peso actual sea mayor a 600 kg, mostrando únicamente su número de arete, raza y peso.
+**Descripción del objetivo de la consulta:** Para mantener el control sanitario en los accesos de la feria coordinados por el equipo veterinario, se necesita auditar qué animales ingresaron respaldados por una guía de movilización y su respectivo control fitosanitario aprobado. La consulta cruza las tablas animal, control_sanitario y guia_movilizacion, filtrando los diagnósticos aprobados y renombrando el diagnóstico veterinario como estado_revision.
 
 **Álgebra Relacional:**
 
 ```
-S1 = σ especie == "Bovino" and peso_actual > 600.00 (animal)
-π numero_arete, raza, peso_actual(S1)
+S1 = animal ⋈ control_sanitario ⋈ guia_movilizacion
+S2 = σ estado_aprobacion == "Aprobado" and cantidad_animales_ingresados > 0 (S1)
+S3 = π numero_arete, diagnostico_sanitario, numero_guia (S2)
+S4 = ρ diagnostico_sanitario ➡ estado_revision (S3)
 ```
 
 **SQL:**
 
 ```sql
-SELECT numero_arete, raza, peso_actual
-FROM   ANIMAL
-WHERE  especie = 'Bovino' AND peso_actual > 600.00;
+SELECT   a.numero_arete,
+         cs.diagnostico_sanitario AS estado_revision,
+         gm.numero_guia
+FROM     animal a
+JOIN     control_sanitario cs ON a.id_animal = cs.id_animal
+JOIN     guia_movilizacion gm ON cs.id_guia = gm.id_guia
+WHERE    cs.estado_aprobacion = 'Aprobado'
+  AND    gm.cantidad_animales_ingresados > 0;
 ```
 
-**Nueva tabla Relación donde se proyectan todas las columnas del numero del arete, raza y peso actual de la selección de la tabla animal cuyas especies son solo los "Bovinos" y su peso es mayor 600 Kg:**
+**Nueva tabla Relación cumpliendo la descripción:**
 
-| numero_arete | raza | peso_actual |
+| numero_arete | estado_revision | numero_guia |
 |---|---|---|
-| ART-14112 | Brahman | 710.0 |
-| ART-11001 | Holstein | 650.5 |
+| ART-13089 | Ganado bovino con vacunaciÃ³n al dÃ­a y certificado verificado. | AGRO-2026-00210 |
+| ART-11001 | Animales desparasitados y sin signos de fiebre aftosa. | AGRO-2026-00125 |
+| ART-15200 | VerificaciÃ³n de aretes en acceso principal; documentaciÃ³n en regla. | AGRO-2026-00290 |
+| ART-14112 | RevisiÃ³n sanitaria completa de la carga procedente de El Oro. | AGRO-2026-00245 |
+| ART-12045 | Control visual Ã³ptimo, se detectÃ³ 1 animal menos por motivos de transporte. | AGRO-2026-00189 |
 
-**Resultado esperado:** Se obtendrán las filas de los animales bovinos pesados (que superan los 600 kg) y se mostrarán exclusivamente las columnas del número de arete, la raza y el peso actual.
+**Resultado esperado:** Una tabla de auditoría con el número de arete del animal, el diagnóstico veterinario renombrado (estado_revision) y el número de la guía oficial de movilización, garantizando que solo aparezcan los ejemplares con ingreso sanitario legalmente aprobado a la feria.
 
 ---
 
-### Consulta 4 — Reunión natural / JOIN (operador: ⋈)
+### Consulta 3 — Trazabilidad Genealógica y de Oferta Comercial en Subasta
 
-**Descripción:** Obtener información detallada y filtrada del ganado bovino procedente de la provincia de Loja, uniendo los datos de los animales con los de sus respectivos propietarios y mostrar únicamente su cedula o ruc, nombre de a hacienda y cantón y del animal su raza y sexo para la auditoría y control de ganado local en la feria ganadera de Saraguro.
+**Descripción:** La administración de la feria requiere un informe detallado que vincule la línea genealógica de los animales con sus ofertas registradas en el sistema de transacciones y subastas. La consulta une las tablas animal, genealogia y oferta, filtrando aquellas ofertas aceptadas para analizar el comportamiento comercial según la pureza o registro genealógico del ejemplar, renombrando el monto ofertado como valor_propuesta.
 
 **Álgebra Relacional:**
 
 ```
-S1 = propietario ⋈ animal
+S1 = animal ⋈ genealogia ⋈ oferta
+S2 = σ estado_oferta == "Aceptada" and sexo == "Macho" (S1)
+S3 = π numero_arete, registro_genealogico, monto_ofertado (S2)
+S4 = ρ monto_ofertado ➡ valor_propuesta (S3)
+```
+
+**SQL:**
+
+```sql
+SELECT   a.numero_arete,
+         g.registro_genealogico,
+         o.monto_ofertado AS valor_propuesta
+FROM     animal a
+JOIN     genealogia g ON a.id_animal = g.id_animal
+JOIN     oferta o ON a.id_animal = o.id_transaccion
+WHERE    o.estado_oferta = 'Aceptada'
+  AND    a.sexo = 'Macho';
+```
+
+**Nueva tabla Relación cumpliendo la descripción:**
+
+| numero_arete | registro_genealogico | valor_propuesta |
+|---|---|---|
+| ART-14112 | REG-BRA-2024-550 | 460.0 |
+| ART-11001 | REG-HOL-2024-001 | 515.0 |
+
+**Resultado esperado:** Un reporte comercial que detalla el arete del animal, su respectivo código de registro genealógico y el valor económico final de la propuesta (valor_propuesta), enfocado en los machos vendidos en el sistema de subastas de la feria.
+
+---
+
+### Consulta 4 — Auditoría y Control de Ganado Bovino Local en la Feria Ganadera de Saraguro
+
+**Descripción:** Obtener información detallada y filtrada del ganado bovino procedente de la provincia de Loja, uniendo los datos de los animales con los de sus respectivos propietarios y mostrar únicamente su cedula o ruc, nombre de a hacienda y cantón y del animal su raza y sexo para la auditoría y control de ganado local en la feria ganadera de Saraguro
+
+**Álgebra Relacional:**
+
+```
+S1= propietario ⋈ animal
 S2 = σ especie == "Porcino" and provincia == "Loja"(S1)
 π cedula_ruc, nombre_hacienda, canton, raza, sexo (S2 = σ especie == "Porcino" and provincia == "Loja"(S1))
 ```
@@ -592,7 +620,7 @@ WHERE  a.especie = 'Porcino'
   AND  p.provincia = 'Loja';
 ```
 
-**Nueva tabla Relación donde se une propietario con animal y selecciona unicamente las personas que tenga su animal con especie es Porcino y es de la provincia de Loja y que solo se presente la cedula, nombre de la hacienda, cantón y del animal, raza y sexo:**
+**Nueva tabla Relación cumpliendo la descripción:**
 
 | cedula_ruc | nombre_hacienda | canton | raza | sexo |
 |---|---|---|---|---|
@@ -602,7 +630,7 @@ WHERE  a.especie = 'Porcino'
 
 ---
 
-### Consulta 5 — Operador Renombrado 𝝆
+### Consulta 5 — Control y Trazabilidad de Bovinos Vendidos en la Feria Ganadera
 
 **Descripción:** Se requiere obtener un listado detallado de los animales de especie bovina cuyas transacciones comerciales de venta se encuentren con estado "Completada". Para ello, es necesario integrar la información de los animales registrados con sus respectivas transacciones de venta y los datos del propietario o cliente vendedor. Asimismo, se busca renombrar el identificador del número de arete del animal para visualizarlo de forma personalizada como un campo de control (identificador), proyectando adicionalmente su precio final de venta y su peso actual para fines de control y trazabilidad en la feria ganadera
 
@@ -628,7 +656,7 @@ WHERE    t.estado = 'Completada'
   AND    a.especie = 'Bovino';
 ```
 
-**Nueva tabla Relación donde se presencia la unión de animal, transición de venta y propietario, y se selecciona el estado "Completado" y la especie "Bovino", y solo se selecciona las columnas de numero del arete, precio final y peso actual y se cambia el numero de arete por identificador**
+**Nueva tabla Relación cumpliendo la descripción:**
 
 | identificador | precio_final | peso_actual |
 |---|---|---|
@@ -651,8 +679,8 @@ WHERE    t.estado = 'Completada'
 
 ## BIBLIOGRAFÍA
 
-[1] G. R. S. I. de Ecuador, Sistema de Identificación y Trazabilidad Agropecuaria (SITA) - Manual de Gestión y Control Pecuario. Quito, Ecuador: AGROCALIDAD, 2022.
+[1] G. R. S. I. de Ecuador, *Sistema de Identificación y Trazabilidad Agropecuaria (SITA) - Manual de Gestión y Control Pecuario*. Quito, Ecuador: AGROCALIDAD, 2022.
 
-[2] R. Elmasri and S. B. Navathe, Fundamentals of Database Systems: Application to Livestock Management and Agricultural Traceability Systems, 7th ed. Hoboken, NJ: Pearson, 2016.
+[2] R. Elmasri and S. B. Navathe, *Fundamentals of Database Systems: Application to Livestock Management and Agricultural Traceability Systems*, 7th ed. Hoboken, NJ: Pearson, 2016.
 
-[3] J. A. O. Pérez and M. L. Torres, Diseño y Modelado de Bases de Datos Relacionales para Ferias Ganaderas y Comercialización Pecuaria, Loja, Ecuador: Ediciones Universidad Nacional de Loja, 2024.
+[3] J. A. O. Pérez and M. L. Torres, *Diseño y Modelado de Bases de Datos Relacionales para Ferias Ganaderas y Comercialización Pecuaria*, Loja, Ecuador: Ediciones Universidad Nacional de Loja, 2024.
