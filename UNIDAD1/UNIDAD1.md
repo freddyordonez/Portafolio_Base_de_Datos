@@ -57,6 +57,21 @@ Espacio dedicado a la implementación práctica mediante scripts de **SQL** (DDL
   <img src="https://img.shields.io/badge/Ver_Scripts_y_Consultas_SQL-b60205?style=for-the-badge" alt="Ver SQL" align="middle" />
 </a>
 
+<br><br>
+
+### 📁 4. Proyecto de Fin de Unidad
+
+Informe integrador de la unidad: diseño de un sistema de base de datos para el control de ingreso Agrocalidad, jornadas dominicales de compra-venta y concursos de exposición en la **Feria Ganadera "El Porvenir"** del cantón Saraguro, provincia de Loja.
+
+> 💡 **En esta sección se abordan:** El contexto del problema, los objetivos, los modelos conceptuales (E-R y relacional), el código SQL (DDL y DML), las consultas de álgebra relacional traducidas a SQL, las conclusiones y la bibliografía.
+
+<br>
+
+<!-- Botón de acceso al proyecto conectado al archivo PROYECTO.md -->
+👉 <a href="PROYECTO.md">
+  <img src="https://img.shields.io/badge/Ver_el_Proyecto_de_Fin_de_Unidad-6f42c1?style=for-the-badge" alt="Ver proyecto" align="middle" />
+</a>
+
 <br><br><br>
 
 ---
